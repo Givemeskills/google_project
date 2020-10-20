@@ -55,13 +55,21 @@ padding: 25px 0 0 10px;
 margin-bottom: 30px
 }
 
-input[type=text] {
+.searchbar {
     outline: none;
+    font-size: 16px;
     border-radius: 24px;
     border:1px solid #dfe1e5;
     border-width: 1.3px;
     height: 39px;
     width: 460px;
+
+}
+
+input[type=text] {
+    outline: none;
+    
+    font-size: 16px;
 }
 
 input[type=submit] {
@@ -85,8 +93,15 @@ input[type=submit] {
     color: #5f6368;
 }
 
+.b-uk .bottom-nav {
+
+}
+
+
 .b-uk {
     padding-left: 27px;
+    border-bottom: 1px solid #5f6368;
+    width: 100%;
 }
 
 .b-left {
