@@ -58,6 +58,7 @@ margin-bottom: 30px;
 .icons {
     position: relative;
     bottom: 32px;
+    pointer-events: none;
 }
 
 #icon-l {
@@ -80,7 +81,6 @@ left: 192px;
     border-radius: 24px;
     border:1px solid #dfe1e5;
     border-width: 1.3px;
-    height: 39px;
     width: 460px;
     margin: 0 auto;
 }
@@ -89,8 +89,8 @@ input[type=text] {
     outline:none;
     border: none;
     font-size: 16px;
-    width: 387px;
-    height: 34px;
+    width: 360px;
+    height: 35px;
 }
 
 input[type=submit] {
@@ -110,19 +110,20 @@ input[type=submit] {
     width: 100%;
     background: #f2f2f2;
     font-size: 14px;
-    line-height: 40px;
     color: #5f6368;
+    border-top: 0.5px solid  #dfe1e5;
+
 }
 
-.b-uk .bottom-nav {
-
+.bnav-divider {
+    line-height: 40px;
+    
 }
 
 
 .b-uk {
     padding-left: 27px;
-    border-bottom: 1px solid #5f6368;
-    width: 100%;
+   
 }
 
 .b-left {
