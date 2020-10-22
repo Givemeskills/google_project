@@ -120,10 +120,11 @@ input[type=submit] {
     
 }
 
-
-.b-uk {
+p {
     padding-left: 27px;
-   
+    position: relative;
+    top: 10px;
+
 }
 
 .b-left {
