@@ -23,8 +23,8 @@ body {
     font-family: "Arial", "Sans-Serif";
     font-size: 13px;
 
-
 }
+
 ul {
     list-style-type: none;
     margin: 22px 0 0 0;
@@ -33,14 +33,18 @@ ul {
 li {
     display: inline;
 }
+
 .t-left {
 float: left;
-padding-left: 15px
+padding-left: 21px;
+opacity: 0.75;
+
 }
 
 .t-right {
     float: right;
     padding-right: 15px;
+    opacity: 0.75;
 
 }
 
